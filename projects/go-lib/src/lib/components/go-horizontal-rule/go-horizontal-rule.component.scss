@@ -2,5 +2,10 @@
 
 .go-horizontal-rule {
   border: 1px solid $theme-light-app-bg;
-  margin: 1rem 0;
+  margin: 1rem -1rem;
+}
+
+.go-horizontal-rule--allow-padding {
+  margin-right: 0;
+  margin-left: 0;
 }

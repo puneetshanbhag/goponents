@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'go-horizontal-rule',
@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./go-horizontal-rule.component.scss']
 })
 export class GoHorizontalRuleComponent implements OnInit {
+  @Input() allowPadding: boolean = false;
 
   constructor() { }
 
   ngOnInit() {
+
   }
 
 }
