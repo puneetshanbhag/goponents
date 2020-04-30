@@ -53,6 +53,10 @@ export * from './lib/components/go-file-upload/go-dragon-drop.directive';
 export * from './lib/components/go-footer/go-footer.component';
 export * from './lib/components/go-footer/go-footer.module';
 
+// Horizontal Rule
+export * from './lib/components/go-horizontal-rule/go-horizontal-rule.component';
+export * from './lib/components/go-horizontal-rule/go-horizontal-rule.module';
+
 // Header
 export * from './lib/components/go-header/go-header.component';
 export * from './lib/components/go-header/go-header.module';
