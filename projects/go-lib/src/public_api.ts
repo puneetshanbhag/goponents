@@ -155,3 +155,4 @@ export * from './lib/components/go-toaster/go-toaster.service';
 
 /***** Utils *****/
 export * from './lib/utilities/form.utils';
+export * from './lib/utilities/colors.util';
